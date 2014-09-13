@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="wifi_settings">Wi-Fi</string>
+    <!-- Main Settings screen setting option name to go into the display settings screen -->
+    <string name="display_settings">Display-Einstellungen</string>
+    <!-- Storage settings screen title [CHAR LIMIT=25] -->
+    <string name="storage_settings_title">Speichereinstellungen</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=30] -->
+    <string name="sd_format_summary">"Löscht sämtliche Daten, beispielsweise Musik und Fotos, von der SD-Karte"</string>
+    <!-- SD card & phone storage settings screen, description for check box to erase USB storage [CHAR LIMIT=30] -->
+    <string name="erase_external_storage_description">"Alle Daten, z. B. Musik und Fotos, von der SD-Karte löschen"</string>
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal">Auf Geräte verschieben</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning">"Anwendungen aus unbekannten Quellen können gefährlich für Ihre persönlichen Daten sein. Sie stimmen zu, dass Sie die Verantwortung für alle Schäden an Ihrem Telefon oder jegliche Datenverluste tragen, die aus der Verwendung dieser Anwendungen entstehen können."</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary">Löscht alle Daten</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc">"Hierdurch werden alle Daten aus dem "<b>"internen Speicher"</b>" gelöscht, einschließlich"\n\n<li>"der System- und Anwendungsdaten und -einstellungen Ihres Google-Kontos"</li>\n<li></li>\n<li>"heruntergeladener Anwendungen"</li>\n\n"Um auch Musik, Bilder und sonstige Nutzerdaten zu löschen, müssen Sie die "<b>"SD-Karte"</b>" löschen."\n\n</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text">"Geräte zurücksetzen"</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings">Geräteinfo</string>
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone">Geräteinfo</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label">Geräteinfoinfo</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info">Geräteinfoinfo</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings">Geräteinfoinfo</string>
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle">Geräte inaktiv</string>
+
+    <!-- Applications memory -->
+    <string name="internal_memory">Applikationsspeicher</string>
+    <string name="internal_storage">Applikationsspeicher</string>
+
+    <!-- Internal storage -->
+    <string name="nand_memory">Interner Speicher</string>
+    <string name="nand_format">Interner Speicher löschen</string>
+    <string name="nand_format_summary">"Löscht sämtliche Daten, beispielsweise Musik und Fotos"</string>
+    <string name="nand_unavailable">"Nicht verfügbar"</string>
+    <string name="nand_format_desc">"Hierdurch wird der interner Speicher gelöscht. "<b>"Alle"</b>" darin befindlichen Daten gehen dann verloren!"</string>
+    <string name="nand_format_button_text">"Interner Speicher löschen"</string>
+    <string name="nand_format_final_desc">"Interner Speicher und alle darauf gespeicherten Dateien löschen? Diese Aktion kann nicht rückgängig gemacht werden!"</string>
+
+    <!-- USB Disk -->
+    <string name="host_memory">USB-Speicher</string>
+    <string name="host_format">USB-Speicher löschen</string>
+    <string name="host_format_summary">"Löscht alle Daten, z. B. Musik und Fotos, aus d. USB-Speicher"</string>
+    <string name="host_unavailable">"Nicht verfügbar"</string>
+    <string name="host_format_desc">"Hierdurch wird der USB-Speicher gelöscht. "<b>"Alle"</b>" darin befindlichen Daten gehen dann verloren!"</string>
+    <string name="host_format_button_text">"USB-Speicher löschen"</string>
+    <string name="host_format_final_desc">"USB-Speicher und alle darauf gespeicherten Dateien löschen? Diese Aktion kann nicht rückgängig gemacht werden!"</string>
+
+    <!-- Standby timeout -->
+    <string name="screen_timeout">Standby</string>
+    <string name="screen_timeout_summary">Adjust the delay before sleep when idle</string>
+    <string-array name="screen_timeout_entries">
+        <item>Deaktiviert</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+    </string-array>
+
+    <!-- Power Off timeout -->
+    <string name="auto_shutdown_timeout">Automatisches Ausschalten</string>
+    <string name="auto_shutdown_timeout_summary">Adjust the delay before the power off automatically</string>
+    <string-array name="auto_shutdown_timeout_entries">
+        <item>Deaktiviert</item>
+        <item>10 Minuten</item>
+        <item>20 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>3 Stunden</item>
+        <item>4 Stunden</item>
+    </string-array>
+
+    <!-- Fully Refresh timeout -->
+    <string name="page_refresh_rate">Seitenaktualisierung</string>
+    <string name="page_refresh_rate_summary">Adjust the delay before fully refresh automatically</string>
+    <string-array name="page_refresh_rate_entries">
+        <item>Nach jeder Seite</item>
+        <item>Nach 2 Seiten</item>
+        <item>Nach 3 Seiten</item>
+        <item>Nach 4 Seiten</item>
+        <item>Nach 5 Seiten</item>
+        <item>Nach 7 Seiten</item>
+        <item>Nach 10 Seiten</item>
+        <item>Nach 15 Seiten</item>
+        <item>Nach 20 Seiten</item>
+        <item>Nach 30 Seiten</item>
+        <item>Nach 40 Seiten</item>
+        <item>Schließen</item>
+    </string-array>
+
+    <string name="title_font_size">"Schriftgröße"</string>
+    <string-array name="entries_font_size">
+        <item>"Klein"</item>
+        <item>"Normal"</item>
+        <item>"Groß"</item>
+        <item>"Sehr groß"</item>
+    </string-array>
+
+</resources>

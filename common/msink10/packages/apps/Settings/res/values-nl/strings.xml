@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen -->
+    <string name="wifi_settings">Wi-Fi</string>
+    <!-- Main Settings screen setting option name to go into the display settings screen -->
+    <string name="display_settings">"Instellingen weergeven"</string>
+    <!-- Storage settings screen title [CHAR LIMIT=25] -->
+    <string name="storage_settings_title">"Instellingen voor opslag"</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=30] -->
+    <string name="sd_format_summary">"Hiermee worden alle gegevens op de SD-kaart gewist, zoals muziek en foto\'s"</string>
+    <!-- SD card & phone storage settings screen, description for check box to erase USB storage [CHAR LIMIT=30] -->
+    <string name="erase_external_storage_description">"Alle gegevens op de SD-kaart wissen, zoals muziek en foto\'s."</string>
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal">"Verplaatsen naar apparaat"</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning">"Uw apparaat en persoonlijke gegevens zijn gevoeliger voor aanvallen door toepassingen van onbekende bronnen. U gaat ermee akkoord dat u alleen verantwoordelijk bent voor enige schade aan uw apparaat of verlies van gegevens die voortkomen uit het gebruik van deze toepassingen."</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary">"Alle gegevens op de apparaat wissen"</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc">"Hiermee worden alle gegevens in de "<b>"interne opslag"</b>" van uw apparaat gewist, waaronder:"\n\n<li>"Uw Google-account"</li>\n<li>"Gegevens en instellingen van het systeem en de toepassingen"</li>\n<li>"Gedownloade toepassingen"</li>\n\n"Als u ook muziek, foto\'s en andere gegevens wilt wissen, moet de "<b>"SD-kaart"</b>" worden gewist."\n\n</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text">"Apparaat opnieuw instellen"</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings">"Over de apparaat"</string>
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone">"Apparaat"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label">"Apparaatinfo"</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info">"Apparaatinformatie"</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings">"Apparaatstatus"</string>
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle">"Apparaat inactief"</string>
+
+    <!-- Applications memory -->
+    <string name="internal_memory">"Toepassingen opslag"</string>
+    <string name="internal_storage">"Toepassingen opslag"</string>
+
+    <!-- Internal storage -->
+    <string name="nand_memory">"Interne opslag"</string>
+    <string name="nand_format">"Interne opslag wissen"</string>
+    <string name="nand_format_summary">"Hiermee worden alle gegevens in de interne opslag gewist, zoals muziek en foto\'s"</string>
+    <string name="nand_unavailable">"Niet beschikbaar"</string>
+    <string name="nand_format_desc">"Met deze actie wordt de interne opslag gewist. "<b>"Alle"</b>" opgeslagen gegevens gaan verloren!"</string>
+    <string name="nand_format_button_text">"Interne opslag wissen"</string>
+    <string name="nand_format_final_desc">"Interne opslag formatteren en alle opgeslagen bestanden wissen? Actie kan niet ongedaan worden gemaakt."</string>
+
+    <!-- USB Disk -->
+    <string name="host_memory">"USB-opslag"</string>
+    <string name="host_format">"USB-opslag wissen"</string>
+    <string name="host_format_summary">"Hiermee worden alle gegevens in de interne USB-opslag gewist, zoals muziek en foto\'s"</string>
+    <string name="host_unavailable">"Niet beschikbaar"</string>
+    <string name="host_format_desc">"Met deze actie wordt de USB-opslag gewist. "<b>"Alle"</b>" opgeslagen gegevens gaan verloren!"</string>
+    <string name="host_format_button_text">"USB-opslag wissen"</string>
+    <string name="host_format_final_desc">"USB-opslag formatteren en alle opgeslagen bestanden wissen? Actie kan niet ongedaan worden gemaakt."</string>
+
+    <!-- Standby timeout -->
+    <string name="screen_timeout">Standby</string>
+    <string name="screen_timeout_summary">Stel de vertraging voor het slapen gaan bij inactiviteit</string>
+    <string-array name="screen_timeout_entries">
+        <item>Uit</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 uur</item>
+    </string-array>
+
+    <!-- Power Off timeout -->
+    <string name="auto_shutdown_timeout">Auto afsluiting</string>
+    <string name="auto_shutdown_timeout_summary">Stel de vertraging voordat de stroom automatisch uitgeschakeld</string>
+    <string-array name="auto_shutdown_timeout_entries">
+        <item>Uit</item>
+        <item>10 Minuten</item>
+        <item>20 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 uur</item>
+        <item>2 uren</item>
+        <item>3 uren</item>
+        <item>4 uren</item>
+    </string-array>
+
+    <!-- Fully Refresh timeout -->
+    <string name="page_refresh_rate">Vernieuwen-modus</string>
+    <string name="page_refresh_rate_summary">Stel de vertraging voordat automatisch volledig vernieuwen</string>
+    <string-array name="page_refresh_rate_entries">
+        <item>Na elke pagina</item>
+        <item>"Na 2 pagina's"</item>
+        <item>"Na 3 pagina's"</item>
+        <item>"Na 4 pagina's"</item>
+        <item>"Na 5 pagina's"</item>
+        <item>"Na 7 pagina's"</item>
+        <item>"Na 10 pagina's"</item>
+        <item>"Na 15 pagina's"</item>
+        <item>"Na 20 pagina's"</item>
+        <item>"Na 30 pagina's"</item>
+        <item>"Na 40 pagina's"</item>
+        <item>Afsluiten</item>
+    </string-array>
+
+    <string name="title_font_size">"Lettergrootte"</string>
+    <string-array name="entries_font_size">
+        <item>"Klein"</item>
+        <item>"Normaal"</item>
+        <item>"Groot"</item>
+        <item>"Enorm"</item>
+    </string-array>
+
+</resources>

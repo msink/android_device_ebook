@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="fileSizeSuffix">\n"%1$s %2$s"</string>
+    <string name="cfTemplateNotForwarded">\n"{0}: inoltro non effettuato"</string>
+    <string name="cfTemplateForwarded">\n"{0}: {1}"</string>
+    <string name="cfTemplateForwardedTime">\n"{0} {1} dopo {2} secondi"</string>
+    <string name="cfTemplateRegistered">\n"{0}: inoltro non effettuato"</string>
+    <string name="cfTemplateRegisteredTime">\n"{0}: inoltro non effettuato"</string>
+    <string name="shutdown_confirm">Arresta dispositivo.</string>
+    <string name="contact_status_update_attribution_with_date">\n"%1$s tramite %2$s"</string>
+    <string name="lockscreen_plugged_in">"In carica ("\n"%d %%)"</string>
+    <string name="lockscreen_battery_short">\n"%d %%"</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">\n"%d tentativi di inserimento della sequenza di sblocco."\n\n"Riprova fra %d secondi."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">\n"%d tentativi di inserimento della sequenza di sblocco. Dopo altri %d tentativi falliti, ti verrà chiesto di sbloccare il telefono tramite i dati di accesso di Google."\n\n"Riprova fra %d secondi."</string>
+    <string name="hour_ampm" formatted="false">\n"%-l %P"</string>
+    <string name="hour_cap_ampm" formatted="false">\n"%-l %p"</string>
+    <string name="js_dialog_before_unload">"Uscire da questa pagina?"\n\n\n"%s"\n\n"Seleziona OK per continuare o Annulla per rimanere nella pagina corrente."</string>
+    <string name="relative_time">\n"%1$s, %2$s"</string>
+    <string name="elapsed_time_short_format_mm_ss">\n"%1$02d:"\n"%2$02d"</string>
+    <string name="elapsed_time_short_format_h_mm_ss">\n"%1$d:"\n"%2$02d:"\n"%3$02d"</string>
+    <string name="addToDictionary">"Aggiungi \""\n"%s\" al dizionario"</string>
+    <string name="launch_warning_replace">\n"%1$s è ora in esecuzione."</string>
+    <string name="launch_warning_original">\n"%1$s già avviata."</string>
+    <string name="heavy_weight_notification">\n"%1$s in esecuzione"</string>
+    <string name="ringtone_default_with_actual">"Suoneria predefinita ("\n"%1$s)"</string>
+    <string name="perms_hide">" "<b>Nascondi</b>" "</string>
+    <string name="perms_show_all">" "<b>Mostra tutto</b>" "</string>
+    <string name="flashmedia_format_title">Formatta memoria Flash</string>
+    <string name="flashmedia_format_message">Sicuri di voler formattare la memoria Flash? Tutti i dati andranno persi</string>
+    <string name="flashmedia_format_button_format">Formato</string>
+    <string name="candidates_style">" "<u>candidati</u>" "</string>
+    <string name="usb_media_checking_notification_title">Preparare memoria di massa USB</string>
+    <string name="usb_media_checking_notification_message">Controllo errori</string>
+    <string name="flash_media_checking_notification_title">Preparare memoria interna flash</string>
+    <string name="flash_media_checking_notification_message">Controllo errori</string>
+    <string name="flash_media_nofs_notification_title">Flash interna vuota</string>
+    <string name="flash_media_nofs_notification_message">Flash interna vuota o sistema file non compatibile</string>
+    <string name="usb_media_nofs_notification_title">Memoria di massa USB vuota</string>
+    <string name="usb_media_nofs_notification_message">Memoria di massa USB vuota o con sistema di file non compatibile</string>
+    <string name="usb_media_unmountable_notification_title">Memoria di massa USB danneggiata</string>
+    <string name="usb_media_unmountable_notification_message">Memoria di massa USB danneggiata. È possibile che sia necessario riformattare</string>
+    <string name="usb_media_badremoval_notification_title">Memoria di massa USB rimossa inaspettatamente</string>
+    <string name="usb_media_badremoval_notification_message">Smontare memoria di massa USB prima di rimuovere per evitare perdita dei dati</string>
+    <string name="usb_media_safe_unmount_notification_title">Possibile rimuovere in sicurezza memoria di massa USB</string>
+    <string name="usb_media_safe_unmount_notification_message">Si può rimuovere in sicurezza memoria USB</string>
+    <string name="flash_media_safe_unmount_notification_title">Possibile rimuovere in sicurezza memoria flash interna</string>
+    <string name="flash_media_safe_unmount_notification_message">Si può rimuovere in sicurezza memoria flash interna</string>
+    <string name="usb_media_nomedia_notification_title">Rimossa memoria USB</string>
+    <string name="usb_media_nomedia_notification_message">Rimossa memoria USB. Inserirne una nuova.</string>
+    <string name="permdesc_fullscreen">Consente applicazione a schermo intero</string>
+    <string name="permlab_fullscreen">Cambiare a schermo intero</string>
+    <string name="progress_unmounting_nand">Smontaggio memoria interna</string>
+
+    <plurals name="num_seconds_ago">
+        <item quantity="other">\n"%d secondi fa"</item>
+        <item quantity="one">1 secondo fa</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">\n"%d minuti fa"</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">\n"%d ore fa"</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">\n"%d giorni fa"</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+     <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">\n"%d sec fa"</item>
+        <item quantity="one">1 sec fa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">\n"%d min fa"</item>
+        <item quantity="one">1 min fa</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">\n"%d ore fa"</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">\n"%d giorni fa"</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen -->
+    <string name="wifi_settings">"Wi-Fi"</string>
+    <!-- Main Settings screen setting option name to go into the display settings screen -->
+    <string name="display_settings">"Impostazioni display"</string>
+    <!-- Storage settings screen title [CHAR LIMIT=25] -->
+    <string name="storage_settings_title">"Impostazioni di archiviazione"</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=30] -->
+    <string name="sd_format_summary">"Cancella tutti i dati sulla scheda SD, come musica e foto"</string>
+    <!-- SD card & phone storage settings screen, description for check box to erase USB storage [CHAR LIMIT=30] -->
+    <string name="erase_external_storage_description">"Cancella i dati sulla scheda SD, come musica o foto"</string>
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal">"Sposta sul congegno"</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning">"Il congegno e i dati personali sono più vulnerabili agli attacchi da parte di applicazioni di origini sconosciute. L\'utente accetta di essere il solo responsabile degli eventuali danni al congegno o della perdita dei dati che potrebbero derivare dall\'utilizzo di queste applicazioni."</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary">"Cancella tutti i dati sul congegno"</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc">"Questa operazione cancellerà tutti i dati dall\'"<b>"archivio interno"</b>", compresi:"\n\n<li>"Il tuo account Google"</li>\n<li>"Dati e impostazioni di sistema e delle applicazioni"</li>\n<li>"Applicazioni scaricate"</li>\n\n"Per cancellare anche musica, foto e altri dati utente, è necessario cancellare la "<b>"scheda SD"</b>"."\n\n</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text">"Ripristina congegno"</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings">"Info sul congegno"</string>
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone">"Congegno"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label">"Info congegno"</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info">"Informazioni congegno"</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings">"Stato congegno"</string>
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle">"Congegno inattivo"</string>
+
+    <!-- Applications memory -->
+    <string name="internal_memory">Memoria applicazioni</string>
+    <string name="internal_storage">Memoria applicazioni</string>
+
+    <!-- Internal storage -->
+    <string name="nand_memory">"Archivio interno"</string>
+    <string name="nand_format">"Cancella archivio interno"</string>
+    <string name="nand_format_summary">"Cancella i dati nell\'archivio interno, come musica e foto"</string>
+    <string name="nand_unavailable">"Non disponibile"</string>
+    <string name="nand_format_desc">"Questa azione cancellerà l\'archivio interno. "<b>"Tutti"</b>" i dati memorizzati al suo interno andranno persi."</string>
+    <string name="nand_format_button_text">"Cancella archivio interno"</string>
+    <string name="nand_format_final_desc">"Cancellare l\'archivio interno, eliminando tutti i file memorizzati al suo interno? Questa azione è irreversibile."</string>
+
+    <!-- USB Disk -->
+    <string name="host_memory">"Archivio USB"</string>
+    <string name="host_format">"Cancella archivio USB"</string>
+    <string name="host_format_summary">"Cancella i dati nell\'archivio USB interno, come musica e foto"</string>
+    <string name="host_unavailable">"Non disponibile"</string>
+    <string name="host_format_desc">"Questa azione cancellerà l\'archivio USB. "<b>"Tutti"</b>" i dati memorizzati al suo interno andranno persi."</string>
+    <string name="host_format_button_text">"Cancella archivio USB"</string>
+    <string name="host_format_final_desc">"Cancellare l\'archivio USB, eliminando tutti i file memorizzati al suo interno? Questa azione è irreversibile."</string>
+
+    <!-- Standby timeout -->
+    <string name="screen_timeout">"Standby"</string>
+    <string name="screen_timeout_summary">"Regolare il ritardo prima di dormire quando è inattivo"</string>
+    <string-array name="screen_timeout_entries">
+        <item>Disabilitato</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+    </string-array>
+
+    <!-- Power Off timeout -->
+    <string name="auto_shutdown_timeout">"Arresto automatico"</string>
+    <string name="auto_shutdown_timeout_summary">"Regolare il ritardo prima di spegnimento automatico"</string>
+    <string-array name="auto_shutdown_timeout_entries">
+        <item>Disabilitato</item>
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+    </string-array>
+
+    <!-- Fully Refresh timeout -->
+    <string name="page_refresh_rate">"Aggiornamento pagine"</string>
+    <string name="page_refresh_rate_summary">"Regolare il ritardo prima completamente automatica di aggiornamento"</string>
+    <string-array name="page_refresh_rate_entries">
+        <item>Dopo ogni pagina</item>
+        <item>Dopo 2 pagine</item>
+        <item>Dopo 3 pagine</item>
+        <item>Dopo 4 pagine</item>
+        <item>Dopo 5 pagine</item>
+        <item>Dopo 7 pagine</item>
+        <item>Dopo 10 pagine</item>
+        <item>Dopo 15 pagine</item>
+        <item>Dopo 20 pagine</item>
+        <item>Dopo 30 pagine</item>
+        <item>Dopo 40 pagine</item>
+        <item>Esci</item>
+    </string-array>
+
+    <string name="title_font_size">"Dimensioni carattere"</string>
+    <string-array name="entries_font_size">
+        <item>"Piccole"</item>
+        <item>"Normali"</item>
+        <item>"Grandi"</item>
+        <item>"Molto grandi"</item>
+    </string-array>
+
+</resources>

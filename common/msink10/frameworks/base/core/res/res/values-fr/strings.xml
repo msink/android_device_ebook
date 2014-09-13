@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="fileSizeSuffix">\n"%1$s "\n"%2$s"</string>
+    <string name="cfTemplateNotForwarded">\n"{0} : non transféré"</string>
+    <string name="cfTemplateForwarded">\n"{0} : {1}"</string>
+    <string name="cfTemplateForwardedTime">\n"{0} : {1} au bout de {2} secondes"</string>
+    <string name="cfTemplateRegistered">\n"{0} : non transféré"</string>
+    <string name="cfTemplateRegisteredTime">\n"{0} : non transféré"</string>
+    <string name="contentServiceTooManyDeletesNotificationDesc">"Trop de contenus supprimés ("\n"%s)."</string>
+    <string name="shutdown_confirm">"Arrêt de l'appareil !."</string>
+    <string name="contact_status_update_attribution_with_date">\n"%1$s via %2$s"</string>
+    <string name="lockscreen_plugged_in">"Chargement ("\n"%d "\n"%%)"</string>
+    <string name="lockscreen_battery_short">\n"%d "\n"%%"</string>
+    <string name="hour_ampm" formatted="false">\n"%-l %P"</string>
+    <string name="hour_cap_ampm" formatted="false">\n"%-l %p"</string>
+    <string name="js_dialog_title">"La page \""\n"%s\" affirme :"</string>
+    <string name="js_dialog_before_unload">"Vous souhaitez quitter cette page ?"\n\n\n"%s"\n\n"Sélectionnez OK pour continuer ou Annuler pour rester sur la page actuelle."</string>
+    <string name="preposition_for_year">"en "\n"%s"</string>
+    <string name="relative_time">\n"%1$s, %2$s"</string>
+    <string name="elapsed_time_short_format_mm_ss">\n"%1$02d:"\n"%2$02d"</string>
+    <string name="elapsed_time_short_format_h_mm_ss">\n"%1$d:"\n"%2$02d:"\n"%3$02d"</string>
+    <string name="addToDictionary">"Ajouter \""\n"%s\" au dictionnaire"</string>
+    <string name="launch_warning_replace">\n"%1$s est maintenant lancée."</string>
+    <string name="heavy_weight_notification">\n"%1$s en cours d'exécution"</string>
+    <string name="ringtone_default_with_actual">"Sonnerie par défaut ("\n"%1$s)"</string>
+    <string name="permissions_format">%1$s, %2$s</string>
+    <string name="perms_hide">" "<b>Masquer</b>" "</string>
+    <string name="perms_show_all">" "<b>Tout afficher</b>" "</string>
+    <string name="flashmedia_format_title">Formater Mémoire du Flash</string>
+    <string name="flashmedia_format_message">Etes-vous sûr de vouloir formater la mémoire du flash? Vous perdrez toutes les données de votre flash.</string>
+    <string name="flashmedia_format_button_format">Formater</string>
+    <string name="candidates_style">" "<u>candidats</u>" "</string>
+    <string name="usb_media_checking_notification_title">Mémoire de Masse USB en préparation</string>
+    <string name="usb_media_checking_notification_message">Recherche des erreurs</string>
+    <string name="flash_media_checking_notification_title">Mémoire interne du flash en préparation</string>
+    <string name="flash_media_checking_notification_message">Recherche des erreurs.</string>
+    <string name="flash_media_nofs_notification_title">Flash Interne Vide</string>
+    <string name="flash_media_nofs_notification_message">Flash interne vide ou système fichier incompatible.</string>
+    <string name="usb_media_nofs_notification_title">Mémoire de Masse USB Vide</string>
+    <string name="usb_media_nofs_notification_message">Mémoire de Masse USB Vide ou système fichier incompatible</string>
+    <string name="usb_media_unmountable_notification_title">Mémoire de Stockage de Masse USB endommagée</string>
+    <string name="usb_media_unmountable_notification_message">Mémoire de Stockage de Masse USB endommagée. Vous devriez le reformater.</string>
+    <string name="usb_media_badremoval_notification_title">Mémoire de Stockage de Masse USB retirée inopinément</string>
+    <string name="usb_media_badremoval_notification_message">Démonter la Mémoire de Stockage de Masse USB avant de la retirer pour éviter la perte des données.</string>
+    <string name="usb_media_safe_unmount_notification_title">Vous pouvez retirer la Mémoire de Stockage de Masse USB en toute sécurité</string>
+    <string name="usb_media_safe_unmount_notification_message">Vous pouvez retirer la Mémoire de Stockage de Masse USB en toute sécurité</string>
+    <string name="flash_media_safe_unmount_notification_title">Vous pouvez retirer la Mémoire Flash interne en toute sécurité</string>
+    <string name="flash_media_safe_unmount_notification_message">Vous pouvez retirer la Mémoire Flash interne en toute sécurité</string>
+    <string name="usb_media_nomedia_notification_title">Mémoire de Stockage de Masse USB retirée</string>
+    <string name="usb_media_nomedia_notification_message">Mémoire de Stockage de Masse USB retirée. Insérer une nouvelle</string>
+    <string name="alternate_eri_file">/data/eri.xml</string>
+    <string name="permdesc_fullscreen">"Permet une plein écran d'application"</string>
+    <string name="permlab_fullscreen">Changer vers Plein écran</string>
+    <string name="progress_unmounting_nand">Mémoire de masse interne non montée...</string>
+
+</resources>

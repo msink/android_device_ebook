@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen -->
+    <string name="wifi_settings">Wi-Fi</string>
+    <!-- Main Settings screen setting option name to go into the display settings screen -->
+    <string name="display_settings">"Ajustes de pantalla"</string>
+    <!-- Storage settings screen title [CHAR LIMIT=25] -->
+    <string name="storage_settings_title">"Ajustes de almacenamiento"</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=30] -->
+    <string name="sd_format_summary">"Permite borrar todos los datos de la tarjeta SD, como la música y las fotos"</string>
+    <!-- SD card & phone storage settings screen, description for check box to erase USB storage [CHAR LIMIT=30] -->
+    <string name="erase_external_storage_description">"Borra todos los datos de la tarjeta SD, como música y fotos"</string>
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal">"Mover al dispositivo"</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning">"El dispositivo y los datos personales son más vulnerables a los ataques de aplicaciones de origen desconocido. El usuario acepta ser el único responsable de cualquier daño en el dispositivo o pérdida de datos que se pueda derivar del uso de estas aplicaciones."</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary">"Borrar todos los datos del dispositivo"</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc">"Se borrarán todos los datos del "<b>"almacenamiento interno"</b>" del dispositivo, incluidos: la configuración y los datos de aplicaciones y del sistema de "\n\n<li>"tu cuenta de Google"</li>\n<li>","</li>\n<li>"las aplicaciones descargadas."</li>\n\n"Si también quieres eliminar la música, las imágenes y otros datos de usuario, debes borrar la "<b>"tarjeta SD"</b>"."\n\n</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text">"Reiniciar dispositivo"</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings">"Acerca del dispositivo"</string>
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone">"Dispositivo"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label">"Información sobre el dispositivo"</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info">"Información sobre el dispositivo"</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings">"Estado del dispositivo"</string>
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle">"Dispositivo inactivo"</string>
+
+    <!-- Applications memory -->
+    <string name="internal_memory">"Aplicaciones memoria"</string>
+    <string name="internal_storage">"Aplicaciones memoria"</string>
+
+    <!-- Internal storage -->
+    <string name="nand_memory">"Almacenamiento interno"</string>
+    <string name="nand_format">"Borrar almacenamiento interno"</string>
+    <string name="nand_format_summary">"Borr dat almacenamiento interno (mús, fot)"</string>
+    <string name="nand_unavailable">"No disponible"</string>
+    <string name="nand_format_desc">"Se borrará el almacenamiento interno y perderás "<b>"todos"</b>" los datos almacenados."</string>
+    <string name="nand_format_button_text">"Borrar almacenamiento interno"</string>
+    <string name="nand_format_final_desc">"¿Quieres borrar el almacenamiento interno y eliminar todos sus archivos? Esta acción no se puede deshacer."</string>
+
+    <!-- USB Disk -->
+    <string name="host_memory">"Almacenamiento USB"</string>
+    <string name="host_format">"Borrar almacenamiento USB"</string>
+    <string name="host_format_summary">"Borr dat USB intern (mús, fot)"</string>
+    <string name="host_unavailable">"No disponible"</string>
+    <string name="host_format_desc">"Se borrará el almacenamiento USB y perderás "<b>"todos"</b>" los datos almacenados."</string>
+    <string name="host_format_button_text">"Borrar almacenamiento USB"</string>
+    <string name="host_format_final_desc">"¿Quieres borrar el almacenamiento USB y eliminar todos sus archivos? Esta acción no se puede deshacer."</string>
+
+    <!-- Standby timeout -->
+    <string name="screen_timeout">En espera</string>
+    <string name="screen_timeout_summary">Ajuste el retardo antes de dormir cuando está inactivo</string>
+    <string-array name="screen_timeout_entries">
+        <item>Desactivado</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+    </string-array>
+
+    <!-- Power Off timeout -->
+    <string name="auto_shutdown_timeout">Apagar automáticamente</string>
+    <string name="auto_shutdown_timeout_summary">Ajuste el retardo antes de la alimentación de forma automática</string>
+    <string-array name="auto_shutdown_timeout_entries">
+        <item>Desactivado</item>
+        <item>10 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>4 horas</item>
+    </string-array>
+
+    <!-- Fully Refresh timeout -->
+    <string name="page_refresh_rate">Actualizar modo</string>
+    <string name="page_refresh_rate_summary">Ajuste el retardo antes de actualizar de forma totalmente automática</string>
+    <string-array name="page_refresh_rate_entries">
+        <item>Después 1 pág.</item>
+        <item>Después 2 págs.</item>
+        <item>Después 3 págs.</item>
+        <item>Después 4 págs.</item>
+        <item>Después 5 págs.</item>
+        <item>Después 7 págs.</item>
+        <item>Después 10 págs.</item>
+        <item>Después 15 págs.</item>
+        <item>Después 20 págs.</item>
+        <item>Después 30 págs.</item>
+        <item>Después 40 págs.</item>
+        <item>Salir</item>
+    </string-array>
+
+    <string name="title_font_size">"Tamaño de fuente"</string>
+    <string-array name="entries_font_size">
+        <item>"Pequeño"</item>
+        <item>"Normal"</item>
+        <item>"Grande"</item>
+        <item>"Enorme"</item>
+      </string-array>
+
+</resources>

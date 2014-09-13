@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen -->
+    <string name="wifi_settings">Wi-Fi</string>
+    <!-- Main Settings screen setting option name to go into the display settings screen -->
+    <string name="display_settings">Display and power settings</string>
+    <!-- Storage settings screen title [CHAR LIMIT=25] -->
+    <string name="storage_settings_title">Storage settings</string>
+    <!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.   [CHAR LIMIT=30] -->
+    <string name="sd_format_summary">Erases all data on the SD card, such as music and photos</string>
+    <!-- SD card & phone storage settings screen, description for check box to erase USB storage [CHAR LIMIT=30] -->
+    <string name="erase_external_storage_description">Erase all the data on the SD card, such as music or photos.</string>
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal">Move to device</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning">Your device and personal data are more vulnerable to attack by applications
+ from unknown sources. You agree that you are solely responsible for any
+ damage to your phone or loss of data that may result from using
+ these applications.</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary">Erases all data on device</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc">"This will erase all data from your <b>internal storage</b>, including:\n\n<li>Your Google account</li>\n<li>System and application data and settings</li>\n<li>Downloaded applications</li>\n\nTo also clear music, pictures, and other user data, the <b>SD card</b> needs to be erased.\n\n"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text">Reset device settings</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings">About device</string>
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone">Device</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label">Device info</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info">Device information</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings">Device status</string>
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle">Device idle</string>
+
+    <!-- Applications memory -->
+    <string name="internal_memory">Applications memory</string>
+    <string name="internal_storage">Applications memory</string>
+
+    <!-- Internal storage -->
+    <string name="nand_memory">Internal storage</string>
+    <string name="nand_format">Erase internal storage</string>
+    <string name="nand_format_summary">"Erases all data on the device's internal storage, such as music and photos"</string>
+    <string name="nand_unavailable">Unavailable</string>
+    <string name="nand_format_desc">This action will erase the internal mass storage. You will lose <b>all</b> data stored there!</string>
+    <string name="nand_format_button_text">Erase Internal Mass Storage</string>
+    <string name="nand_format_final_desc">Erase internal mass storage, deleting all files stored there? Action cannot be reversed!</string>
+
+    <!-- USB Disk -->
+    <string name="host_memory">USB Disk</string>
+    <string name="host_format">Erase USB Disk</string>
+    <string name="host_format_summary">"Erases all data on the USB Disk, such as music and photos"</string>
+    <string name="host_unavailable">Unavailable</string>
+    <string name="host_format_desc">This action will erase the USB Disk. You will lose <b>all</b> data stored there!</string>
+    <string name="host_format_button_text">Erase USB Disk</string>
+    <string name="host_format_final_desc">Erase USB Disk, deleting all files stored there? Action cannot be reversed!</string>
+
+    <!-- Standby timeout -->
+    <string name="screen_timeout">Standby timeout</string>
+    <string name="screen_timeout_summary">Adjust the delay before sleep when idle</string>
+    <string-array name="screen_timeout_entries">
+        <item>Disabled</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="screen_timeout_values" translatable="false">
+        <item>-1</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+
+    <!-- Power Off timeout -->
+    <string name="auto_shutdown_timeout">Power Off timeout</string>
+    <string name="auto_shutdown_timeout_summary">Adjust the delay before the power off automatically</string>
+    <string-array name="auto_shutdown_timeout_entries">
+        <item>Disabled</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+    </string-array>
+    <string-array name="auto_shutdown_timeout_values" translatable="false">
+        <item>-1</item>
+        <item>600000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+    </string-array>
+
+    <!-- Fully Refresh timeout -->
+    <string name="page_refresh_rate">Fully Refresh timeout</string>
+    <string name="page_refresh_rate_summary">Adjust the delay before fully refresh automatically</string>
+    <string-array name="page_refresh_rate_entries">
+        <item>Always</item>
+        <item>After 2 pages</item>
+        <item>After 3 pages</item>
+        <item>After 4 pages</item>
+        <item>After 5 pages</item>
+        <item>After 7 pages</item>
+        <item>After 10 pages</item>
+        <item>After 15 pages</item>
+        <item>After 20 pages</item>
+        <item>After 30 pages</item>
+        <item>After 40 pages</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="page_refresh_rate_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>10000</item>
+    </string-array>
+
+</resources>

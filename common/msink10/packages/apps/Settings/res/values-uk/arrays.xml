@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="timezone_filters">
+    <item>"Америка"</item>
+    <item>"Європа"</item>
+    <item>"Африка"</item>
+    <item>"Азія"</item>
+    <item>"Австралія"</item>
+    <item>"Тихоокеан."</item>
+    <item>"Усі"</item>
+  </string-array>
+  <string-array name="animations_entries">
+    <item>"Немає анімацій"</item>
+    <item>"Деякі анімації"</item>
+    <item>"Усі анімації"</item>
+  </string-array>
+  <string-array name="animations_summaries">
+    <item>"Не відображаються анімації вікон"</item>
+    <item>"Відображено деякі анімації вікон"</item>
+    <item>"Відображаюся всі анімації вікна"</item>
+  </string-array>
+  <string-array name="tts_rate_entries">
+    <item>"Дуже пов."</item>
+    <item>"Повіл."</item>
+    <item>"Звич."</item>
+    <item>"Швидкий"</item>
+    <item>"Дуже швидко"</item>
+  </string-array>
+  <string-array name="tts_pitch_entries">
+    <item>"Дуже низька"</item>
+    <item>"Низька"</item>
+    <item>"Звичайна"</item>
+    <item>"Висока"</item>
+    <item>"Дуже висока"</item>
+  </string-array>
+  <string-array name="tts_lang_entries">
+    <item>"англійська (амер.)"</item>
+    <item>"англійська (брит.)"</item>
+    <item>"франц."</item>
+    <item>"німецька"</item>
+    <item>"італійська"</item>
+    <item>"іспанська"</item>
+  </string-array>
+  <string-array name="wifi_status">
+    <item></item>
+    <item>"Сканув-ня..."</item>
+    <item>"Підключення…"</item>
+    <item>"Автентифікація…"</item>
+    <item>"Отримання ІР-адреси…"</item>
+    <item>"Підключено"</item>
+    <item>"Припинено"</item>
+    <item>"Відключення..."</item>
+    <item>"Роз’єднано"</item>
+    <item>"Помилка"</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item></item>
+    <item>"Сканув-ня..."</item>
+    <item>"Підключення до <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+    <item>"Автентифікація з <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+    <item>"Отримання ІР-адреси від <xliff:g id="NETWORK_NAME">%1$s</xliff:g>..."</item>
+    <item>"Підключено до <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+    <item>"Призупинено"</item>
+    <item>"Відключення від <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+    <item>"Роз’єднано"</item>
+    <item>"Помилка"</item>
+  </string-array>
+  <string-array name="wifi_security">
+    <item>"Відкр."</item>
+    <item>"WEP"</item>
+    <item>"WPA/WPA2 PSK"</item>
+    <item>"802.1x EAP"</item>
+  </string-array>
+  <string-array name="wifi_eap_method">
+    <item>"PEAP"</item>
+    <item>"TLS"</item>
+    <item>"TTLS"</item>
+  </string-array>
+  <string-array name="wifi_signal">
+    <item>"Слабкий"</item>
+    <item>"Задов."</item>
+    <item>"Хороший"</item>
+    <item>"Чудовий"</item>
+  </string-array>
+  <string-array name="wifi_sleep_policy_entries">
+    <item>"При вимкненні екрана"</item>
+    <item>"Ніколи в підключ. стані"</item>
+    <item>"Ніколи"</item>
+  </string-array>
+  <string-array name="usage_stats_display_order_types">
+    <item>"Час використ."</item>
+    <item>"К-сть запусків"</item>
+    <item>"Назва програми"</item>
+  </string-array>
+  <string-array name="wifi_eap_entries">
+    <item>"PEAP"</item>
+    <item>"TLS"</item>
+    <item>"TTLS"</item>
+  </string-array>
+  <string-array name="wifi_phase2_entries">
+    <item>"Немає"</item>
+    <item>"PAP"</item>
+    <item>"MSCHAP"</item>
+    <item>"MSCHAPV2"</item>
+    <item>"GTC"</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item>"Вимк."</item>
+    <item>"Сповіщ."</item>
+    <item>"Вібрув."</item>
+  </string-array>
+  <string-array name="apn_auth_entries">
+    <item>"Немає"</item>
+    <item>"PAP"</item>
+    <item>"CHAP"</item>
+    <item>"PAP або CHAP"</item>
+  </string-array>
+  <string-array name="app_install_location_entries">
+    <item>"Внутрішня пам\'ять пристрою"</item>
+    <item>"Знімна карта SD"</item>
+    <item>"Дозвольте виріш. системі"</item>
+  </string-array>
+  <string-array name="vibrate_entries">
+    <item>"Завжди"</item>
+    <item>"Ніколи"</item>
+    <item>"Лише в беззвуч. режимі"</item>
+    <item>"Лише не в беззвучному режимі"</item>
+  </string-array>
+</resources>

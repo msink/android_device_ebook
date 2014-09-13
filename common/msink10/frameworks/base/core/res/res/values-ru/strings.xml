@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ok">Да</string>
+    <string name="yes">Да</string>
+    <string name="dlg_ok">Да</string>
+    <string name="httpErrorOk">Да</string>
+    <string name="VideoView_error_button">Да</string>
+    <string name="sms_control_yes">Да</string>
+    <string name="selectAll">Выделить все</string>
+    <string name="selectText">Выделить слово</string>
+    <string name="shutdown_confirm">Устройство будет выключено.</string>
+    <string name="usb_storage_message">Устройство подключено к компьютеру через порт USB. Нажмите кнопку ниже, если необходимо копировать файлы с компьютера на SD-карту устройства Android (или наоборот).</string>
+    <string name="progress_unmounting_nand">Отключение внутреннего запоминающего...</string>
+    <string name="progress_erasing">Очистка...</string>
+
+</resources>
